@@ -1,0 +1,91 @@
+.contacto__formulario{
+    font-family: 'montserrat', sans-serif;
+    background-color: #dae7fc;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contacto__contenido{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.contacto__formulario-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(176, 176, 255);
+}
+
+label {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
+input:focus + label,
+input:valid + label {
+    top: -10;
+    left: 5px;
+    font-size: 12px;
+    opacity: 1;
+}
+
+input[type="text"], textarea {
+    margin-top: 10px;
+}
+
+
+.contacto__formulario .boton__enviar{
+    display: flex;
+    justify-content: center;
+}
+
+.boton__enviar{
+    background-color: rgb(108, 108, 255);
+    color: white;
+    width: 132px;
+    margin-top: 10px;
+}
+
+.boton__enviar:hover{
+    cursor: pointer;
+    background-color: rgb(87, 87, 202);
+}
+
+.contacto__imagen{
+    display: none;
+}
+
+@media (min-width: 1024px){
+    .contacto__formulario{
+        display: flex;
+        align-items: center;
+    }
+    .contacto__contenido{
+        text-align: center;
+        width: 100%;
+    }
+    .botonsito{
+        display: flex;
+        justify-content: center;
+    }
+}

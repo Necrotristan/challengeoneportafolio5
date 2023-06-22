@@ -1,0 +1,82 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: rgb(177, 177, 177);
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+
+.retro {
+    background-color: black;
+    color: grey;
+    border-radius: 15%;
+    width: 55%;
+    opacity: 50%;
+    margin-left: 15%;
+}
+.barra__head{
+    display: none;
+}
+
+.logo__nombre{
+    display: flex;
+    align-items: center;
+}
+
+.logo__nombre img{
+    height: 37px;
+    width: 37px;
+}
+
+.logo__nombre h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contacto__head-correo{
+    margin-right: 10px;
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+    .logo__nombre img{
+        margin-left: 20px;
+    }
+
+    .contacto__head-correo{
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .logo__nombre{
+        margin-left: 30px;
+    }
+    .contacto__head-correo{
+        margin-right: 30px;
+    }
+    .barra__head{
+        display: block;
+    }
+    .barra__head ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .barra__head li{
+        display: inline-block;
+    }
+    .barra__head a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    
+      
+}

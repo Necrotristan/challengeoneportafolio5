@@ -1,0 +1,41 @@
+.formacion{
+    background-color: rgb(228, 243, 250);
+    font-family: 'montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.formacion__instituto{
+    margin-left: 20px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.formacion__instituto img{
+    border-radius: 10px;
+}
+
+.formacion__instituto p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+    .formacion__institutos{
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px){
+    .formacion__institutos{
+        display: flex;
+        justify-content: center;
+    }
+}

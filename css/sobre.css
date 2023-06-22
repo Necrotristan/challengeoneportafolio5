@@ -1,0 +1,35 @@
+.sobreMi{
+    font-family: 'montserrat', sans-serif;
+    background-color: rgb(233, 233, 253);
+}
+
+.sobreMi__contenido{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+}
+
+.sobreMi__titulo{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sobreMi__texto{
+    margin-top: 10px;
+}
+
+.firma{
+    height: 100px;
+    opacity: 40%;
+}
+
+@media (min-width: 1024px){
+    .sobreMi__contenido{
+        max-width: 70%;
+    }
+    .firma{
+        margin-left: 300px;
+    }
+}
